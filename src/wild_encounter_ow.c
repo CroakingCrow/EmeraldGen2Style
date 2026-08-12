@@ -1284,7 +1284,7 @@ static bool32 CheckCanLoadOWE_Palette(enum Species speciesId, bool32 isFemale, b
     u32 tag = speciesId + OBJ_EVENT_MON + (isShiny ? OBJ_EVENT_MON_SHINY : 0);
 
 #if P_GENDER_DIFFERENCES
-    if (isFemale && gSpeciesInfo[speciesId].overworldShinyPaletteFemale != NULL)
+    if (isFemale && gSpeciesInfo[speciesId].shinyPaletteFemale != NULL)
         tag += OBJ_EVENT_MON_FEMALE;
 #endif
 

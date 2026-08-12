@@ -390,7 +390,7 @@ enum ShinyMode {
 // - Deoxys has 2 frames, 1 for each form
 // - Spinda has 1 frame, presumably to avoid the work of animating its spots
 // - Unown has 1 frame, presumably to avoid the work of animating all 28 of its forms
-#define MAX_MON_PIC_FRAMES 2
+#define MAX_MON_PIC_FRAMES 4
 
 #define BATTLE_ALIVE_EXCEPT_BATTLER      0
 #define BATTLE_ALIVE_EXCEPT_BATTLER_SIDE 1
